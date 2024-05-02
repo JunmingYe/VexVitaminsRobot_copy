@@ -118,9 +118,9 @@
 
 <baseToZframe>
 
-	<x>58.2</x>
-	<y>-12.599999999999998</y>
-	<z>12.6</z>
+	<x>51.7</x>
+	<y>-103.6</y>
+	<z>25.6</z>
 	<rotw>0.5048458934646433</rotw>
 	<rotx>0.5048458934646445</rotx>
 	<roty>0.49510667926406</roty>
@@ -199,9 +199,9 @@
 	<x>0.0</x>
 	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.6087614290087178</rotw>
+	<rotw>0.6087614290087177</rotw>
 	<rotx>-0.0</rotx>
-	<roty>-0.7933533402912376</roty>
+	<roty>-0.7933533402912374</roty>
 	<rotz>-0.0</rotz>
 			</pose>
 			<frame>default</frame>
@@ -213,8 +213,24 @@
 			<id>Aluminum 10</id>
 			<pose>
 	<x>0.0</x>
-	<y>0.0</y>
-	<z>38.1</z>
+	<y>38.1</y>
+	<z>69.85000000000001</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>default</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>standoff</name>
+			<type>vexStandoff</type>
+			<id>2 inch</id>
+			<pose>
+	<x>57.150000000000006</x>
+	<y>38.1</y>
+	<z>88.89999999999999</z>
 	<rotw>1.0</rotw>
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
