@@ -20,11 +20,16 @@ if(args==null){
 	base=args.get(0)
 
 
-println "Now we will move just one leg"
+println "Now we will move just one arm"
 DHParameterKinematics arm = base.getAppendages().get(0)
+
 double zLift=25
 println "Start from where the arm already is and move it from there with absolute location"
 TransformNR current = arm.getCurrentPoseTarget();
+TransformNR abosolute = new TransformNR(400,0,0.5);
 current.translateZ(zLift);
-arm.setDesiredTaskSpaceTransform(current,  2.0);
+arm.setDesiredTaskSpaceTransform(abosolute,  2.0);
 ThreadUtil.wait(2000)// wait for the arm to fully arrive
+
+//move the ring side in position Y by 50mm
+
